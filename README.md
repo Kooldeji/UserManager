@@ -11,15 +11,10 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 ### Installation
 * Download and install Docker on your machine
 * Clone the app
-* Open Docker and navigate to the app
+* Open Docker Terminal and navigate to the app
 * Build the app image using `docker build -t serverapp .`
 * Run the app and db containers using `docker-compose -f ./docker-compose.yml up`
 * :)
-
-
-### Testing
-To ensure that your installation is successful you'll need to run tests.
-The command: `npm test` makes this possible. It isn't functional right now, but once it's done you'll be notified via the README.
 
 ### API Documentation
 The API only has one endpoint which is the `/users` endpoint for saving users to the database. The endpoint works with the HTTP verbs: `POST`, `GET`, `PUT`, `DELETE`.
@@ -106,6 +101,3 @@ password: janedoe
 ```
 
 
-
-### Author
-**Olajide Bolaji 'Nuel** - Software Developer at Andela
