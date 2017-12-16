@@ -1,0 +1,8 @@
+version: '2'
+services: 
+ databases: 
+  image: mongo 
+  ports: 
+  - "27017:27017"
+ web: 
+  image: serverapp
