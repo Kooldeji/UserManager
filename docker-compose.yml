@@ -6,3 +6,5 @@ services:
   - "27017:27017"
  web: 
   image: serverapp
+  ports: 
+  - "3000:3000"
